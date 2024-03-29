@@ -481,6 +481,22 @@
     [
       "6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9",
       ""
+    ],
+    [
+      "4c6c6d09-876f-4eba-b2a4-6d544596feb9",
+      "isense"
+    ],
+    [
+      "1cc54603-d82e-415c-bbf9-5b5f12638dae",
+      "isense1"
+    ],
+    [
+      "cbef46e6-2abc-49e9-9115-5032ed0b40d4",
+      "isense2"
+    ],
+    [
+      "a42ebe89-8b2e-43de-870b-09d82a0c325a",
+      "isocan"
     ]
   ],
   "text_variables": {}
