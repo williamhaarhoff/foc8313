@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "DRV8313PWP")(type "KiCad")(uri "${KIPRJMOD}/libs/DRV8313PWP/DRV8313PWP.kicad_sym")(options "")(descr ""))
   (lib (name "easyeda")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda/easyeda.kicad_sym")(options "")(descr ""))
+  (lib (name "local_lib")(type "KiCad")(uri "${KIPRJMOD}/libs/local_lib.kicad_sym")(options "")(descr ""))
 )
