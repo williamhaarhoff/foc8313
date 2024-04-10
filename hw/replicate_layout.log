@@ -1,0 +1,54 @@
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 392:Plugin executed on: 'linux'
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 393:Plugin executed with python version: '3.8.10 (default, Nov 22 2023, 10:22:35) \n[GCC 9.4.0]'
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 394:KiCad build version: 7.0.5-7.0.5~ubuntu20.04.1
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 395:Plugin version: 2.1.3
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 396:Frame repr: <wx._core.Frame object at 0x7f83b56eb1f0>
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 420:Preparing replicator with U4 as a reference
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 117:getting a list of all footprints on board
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 468:source anchor footprint is 'U4'
+Located on: ['isense']
+With filenames: ['isense.kicad_sch']
+With sheet_id:['isense']
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 475:Corresponding footprints are 
+[('U4', ['isense']), ('U5', ['isense1']), ('U8', ['isense2'])]
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 487:Showing dialog
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'isense', file:'isense.kicad_sch'
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['isense1'], ['isense2']]
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['isense']
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 493:Toolbar position: wx.Point(1886, 98)
+04-10 21:22:18 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 498:Dialog position: wx.Point(1447, 98)
+04-10 21:22:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'isense', file:'isense.kicad_sch'
+04-10 21:22:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['isense1'], ['isense2']]
+04-10 21:22:27 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['isense']
+04-10 21:22:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'isense', file:'isense.kicad_sch'
+04-10 21:22:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['isense1'], ['isense2']]
+04-10 21:22:29 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['isense']
+04-10 21:22:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'isense', file:'isense.kicad_sch'
+04-10 21:22:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['isense1'], ['isense2']]
+04-10 21:22:32 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['isense']
+04-10 21:22:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'isense', file:'isense.kicad_sch'
+04-10 21:22:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['isense1'], ['isense2']]
+04-10 21:22:33 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1464:Level selected: ['isense']
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 424:constructing a list of sheets suitable for replication on level:'isense', file:'isense.kicad_sch'
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 461:suitable sheets are:[['isense1'], ['isense2']]
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 240:Replicating layout
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 240:Starting replication of sheets: [['isense1'], ['isense2']]
+on level: ['isense']
+with tracks=False, zone=False, text=False, text=False, intersecting=False, remove=False, locked footprints=False, group_only=False
+04-10 21:22:36 root 332:updating GUI message: 'Preparing for replication'
+04-10 21:22:36 root 337:updating GUI with: 0
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 310:Getting the list of source footprints
+04-10 21:22:36 root 337:updating GUI with: 0
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 320:Getting the list of all the remaining footprints
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 327:Getting source tracks
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 1299:Filtering list of tracks
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 331:Getting source zones
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 335:Getting source text items
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 339:Getting source drawing items
+04-10 21:22:36 root 332:updating GUI message: 'Replicating footprints'
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 806:Replicating footprints
+04-10 21:22:36 root 337:updating GUI with: 0
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['isense1']
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.replicate_layout 813:Replicating footprints on sheet ['isense2']
+04-10 21:22:36 com_github_MitjaNemec_ReplicateLayout.action_replicate_layout 256:Replication complete
