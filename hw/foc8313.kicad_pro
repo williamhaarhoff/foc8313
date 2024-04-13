@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.25
         }
       },
       "diff_pair_dimensions": [
@@ -174,7 +174,10 @@
       "track_widths": [
         0.0,
         0.12,
-        0.2
+        0.2,
+        0.4,
+        0.5,
+        1.0
       ],
       "via_dimensions": [
         {
@@ -512,6 +515,10 @@
     [
       "cbef46e6-2abc-49e9-9115-5032ed0b40d4",
       "isense2"
+    ],
+    [
+      "67c38edc-7843-4b4c-b50a-94fd700c0fa2",
+      "isocan"
     ]
   ],
   "text_variables": {}
