@@ -2,4 +2,6 @@
   (version 7)
   (lib (name "easyeda")(type "KiCad")(uri "${KIPRJMOD}/libs/easyeda/easyeda.pretty")(options "")(descr ""))
   (lib (name "local_lib")(type "KiCad")(uri "${KIPRJMOD}/local_lib.pretty")(options "")(descr ""))
+  (lib (name "snapeda")(type "KiCad")(uri "${KIPRJMOD}/libs/snapeda")(options "")(descr ""))
+  (lib (name "MIE1W0505BGLVH-3R-Z")(type "KiCad")(uri "${KIPRJMOD}/libs/snapeda/MIE1W0505BGLVH-3R-Z")(options "")(descr ""))
 )
