@@ -7445,10 +7445,10 @@
     (pin "B7" (uuid c76bd5c7-6d10-41b3-9571-9d0c4d978324))
     (pin "B8" (uuid 5148f135-ad54-4e5f-aa61-f23b0aa92333))
     (pin "B9" (uuid f01a8907-e9bd-4313-9379-b9207f6f0030))
-    (pin "SHELL" (uuid f751698f-b126-49a1-8859-957bae970531))
-    (pin "SHELL" (uuid f751698f-b126-49a1-8859-957bae970531))
-    (pin "SHELL" (uuid f751698f-b126-49a1-8859-957bae970531))
-    (pin "SHELL" (uuid f751698f-b126-49a1-8859-957bae970531))
+    (pin "SHELL" (uuid f751698f-b126-49a1-8859-957bae970534))
+    (pin "SHELL" (uuid f751698f-b126-49a1-8859-957bae970534))
+    (pin "SHELL" (uuid f751698f-b126-49a1-8859-957bae970534))
+    (pin "SHELL" (uuid f751698f-b126-49a1-8859-957bae970534))
     (instances
       (project "foc8313"
         (path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9"
