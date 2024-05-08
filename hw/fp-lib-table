@@ -4,4 +4,5 @@
   (lib (name "local_lib")(type "KiCad")(uri "${KIPRJMOD}/local_lib.pretty")(options "")(descr ""))
   (lib (name "snapeda")(type "KiCad")(uri "${KIPRJMOD}/libs/snapeda")(options "")(descr ""))
   (lib (name "MIE1W0505BGLVH-3R-Z")(type "KiCad")(uri "${KIPRJMOD}/libs/snapeda/MIE1W0505BGLVH-3R-Z")(options "")(descr ""))
+  (lib (name "TL6340AF160Q")(type "KiCad")(uri "${KIPRJMOD}/libs/snapeda/TL6340AF160Q")(options "")(descr ""))
 )

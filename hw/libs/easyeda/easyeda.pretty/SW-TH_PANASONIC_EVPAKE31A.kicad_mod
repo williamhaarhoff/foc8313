@@ -1,0 +1,223 @@
+(footprint "SW-TH_PANASONIC_EVPAKE31A"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -4.75 0)
+		(layer "F.SilkS")
+		(uuid "9b50015d-472e-4770-8fd3-96c4c8c3761b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SW-TH_PANASONIC_EVPAKE31A"
+		(at 0 4.75 0)
+		(layer "F.Fab")
+		(uuid "8c10a73b-da7e-4671-a16b-acaff2bce973")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SW-TH_PANASONIC_EVPAKE31A"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b7681e7d-21d2-4e72-be3b-c25418303b19")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e4bf374d-5b16-46d9-bdc4-c57e99a14abc")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7b2616d8-bdb9-43ae-a1c6-890895f0e936")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.99 0.65)
+		(end -1.99 0.08)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "009b1adf-bad4-45da-afdb-6b8d21db9bd6")
+	)
+	(fp_line
+		(start -0.92 -1.4)
+		(end -2 -1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "450a2574-b252-46fc-81d4-aaaa5dd642c8")
+	)
+	(fp_line
+		(start -0.75 -2.25)
+		(end -0.75 -1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "970d0c7b-d18e-4cd0-b0dc-5ca176d7b8f6")
+	)
+	(fp_line
+		(start 0.75 -2.25)
+		(end -0.75 -2.25)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c40c627-25e2-4ac5-8d8e-0518e4633d53")
+	)
+	(fp_line
+		(start 0.75 -2.25)
+		(end 0.75 -1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b188de2d-1e2b-4f8d-b561-7749e2eaae11")
+	)
+	(fp_line
+		(start 0.91 -1.4)
+		(end -0.92 -1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "be551b55-e1ee-463c-8244-87a2ebc976ac")
+	)
+	(fp_line
+		(start 0.91 -1.4)
+		(end 2 -1.4)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e9b40530-4fba-4883-b388-8ca4662e7ec2")
+	)
+	(fp_line
+		(start 1.98 0.65)
+		(end 1.98 0.08)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "37b90b1d-c65a-4cff-8672-39ff3bff2452")
+	)
+	(fp_rect
+		(start -2.3 -1.5)
+		(end 2.3 1.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0456ef5a-ddea-4c37-a461-71307d2288cc")
+	)
+	(fp_circle
+		(center -1.95 0.65)
+		(end -1.92 0.65)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "b73415be-7995-4630-a4bf-61deb0d26cf3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "9aa1258d-993c-4663-8e80-665e00d1601a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "0" smd rect
+		(at 0 0.75)
+		(size 1.4 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "47f4d621-0d91-43f7-a125-fc5c9a7c80ea")
+	)
+	(pad "1" smd rect
+		(at -1.4 0.6 180)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a05b2ca1-1a41-4dbd-9954-e2f2e9ebf760")
+	)
+	(pad "2" smd rect
+		(at 1.4 0.6 180)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9dc9c54a-61d4-4594-b932-06ae1ec5e186")
+	)
+	(pad "3" thru_hole circle
+		(at 1.9 -0.75)
+		(size 0.8 0.8)
+		(drill 0.599999)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e255dd32-71ff-43fb-bb2a-b357093089b0")
+	)
+	(pad "4" thru_hole circle
+		(at -1.9 -0.75)
+		(size 0.8 0.8)
+		(drill 0.599999)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "2c462ebd-75cb-45a0-887e-31e26b559d0a")
+	)
+	(model "/home/will/elws/foc8313/hw/libs/easyeda/easyeda.3dshapes/SW-TH_PANASONIC_EVPAKE31A.wrl"
+		(offset
+			(xyz 0 0.8 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
