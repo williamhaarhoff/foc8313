@@ -1,0 +1,17 @@
+# v0.1.0 - issues
+  - USB incorrect outline
+  - USB incorrect pinout 
+  - 3.3v vs 3v3 mixed incorrect nets
+  - LDO incorrect pinout
+  - ISO power vselect incorrect
+  - Some boards had buck converter shorts
+  - perhaps: C5832376 for inductor?
+  - ISO power too close to CAN IC
+  - Capacitor too close to CAN IC
+  - Diode inline with buck converter output
+  - Vcc power plane gets choked and should be wider
+  - Plane clearance is very small
+  - Isense resistors could be bigger
+  - No vbus measurement
+  - Silk screen too small
+  - Not a fan of the yellow or red LEDs
