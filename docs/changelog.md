@@ -1,0 +1,12 @@
+v0.2.0
+- Removed compensation capacitor, not required
+- Removed power orring diode on buck converter side of cap
+- Fixed separate +3.3V and 3V3 nets
+- LDO pinout corrected, swapped pin 2 and 3 in symbol
+- Enlarged USBC cutout so connector can mount properly
+- Isolated power supply to generate 5V instead of 3.3V (VSEL floating)
+- Fixed USBC symbol pinout to be correct
+- 6m current shunt to 10m
+- NC pin 3 of buck controller connected to SW for better routing of bootstrap cap
+- Vcc monitoring with resistor divider
+- 

@@ -5,7 +5,6 @@
   - LDO incorrect pinout
   - ISO power vselect incorrect
   - Some boards had buck converter shorts
-  - perhaps: C5832376 for inductor?
   - ISO power too close to CAN IC
   - Capacitor too close to CAN IC
   - Diode inline with buck converter output
@@ -15,3 +14,4 @@
   - No vbus measurement
   - Silk screen too small
   - Not a fan of the yellow or red LEDs
+  - Provision pullups for external ABI interface?

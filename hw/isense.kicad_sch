@@ -786,7 +786,7 @@
 		)
 		(uuid "fe122f93-8289-4e36-b4ab-b835695d496a")
 	)
-	(text "VoutMax = 3.3V\nVdiff=3.3/2/50=33mV\nRsense = Vdiff / IMax = 33mV/5A =6.6mΩ\nPrsense = 6.6e-3 * (5)^2 = 165mw"
+	(text "VoutMax = 3.3V\nVdiff=3.3/2/50=33mV\nRsense = Vdiff / IMax = 33mV/2.5A =13.2mΩ\nPrsense = 13.2e-3 * (2.5)^2 = 82.5mw"
 		(exclude_from_sim no)
 		(at 75.946 60.452 0)
 		(effects
@@ -1172,7 +1172,7 @@
 				)
 			)
 		)
-		(property "Value" "6m"
+		(property "Value" "10m"
 			(at 92.075 106.045 0)
 			(effects
 				(font
@@ -1207,7 +1207,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" "C728268"
+		(property "LCSC" "C7467614"
 			(at 95.885 106.045 0)
 			(effects
 				(font

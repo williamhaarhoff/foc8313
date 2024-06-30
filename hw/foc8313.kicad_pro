@@ -450,7 +450,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "easyeda"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
