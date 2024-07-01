@@ -9,4 +9,4 @@ v0.2.0
 - 6m current shunt to 10m
 - NC pin 3 of buck controller connected to SW for better routing of bootstrap cap
 - Vcc monitoring with resistor divider
-- 
+- Unpinching Vcc to 3.4mm

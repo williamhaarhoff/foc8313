@@ -2335,7 +2335,7 @@
 		(uuid "bd376382-cd93-4b53-a403-25009bcd56c2")
 	)
 	(label "CAN.GND"
-		(at 251.206 134.874 180)
+		(at 251.46 134.62 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

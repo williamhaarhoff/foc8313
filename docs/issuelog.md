@@ -9,6 +9,7 @@
   - Capacitor too close to CAN IC
   - Diode inline with buck converter output
   - Vcc power plane gets choked and should be wider
+  - Daisy chained GND also gets choked and should be wider
   - Plane clearance is very small
   - Isense resistors could be bigger
   - No vbus measurement
