@@ -10,3 +10,7 @@ v0.2.0
 - NC pin 3 of buck controller connected to SW for better routing of bootstrap cap
 - Vcc monitoring with resistor divider
 - Unpinching Vcc to 3.4mm
+- Unpinching GND for daisy chain
+- Increased most plane clearances
+- Tweaked plane geometry to better follow referenced tracks
+- Silk screen labels using bold larger font
