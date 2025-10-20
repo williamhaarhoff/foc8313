@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "09f3918f-6125-496e-909f-4399599b23f8")
 	(paper "A4")
 	(lib_symbols
@@ -91,6 +91,24 @@
 			)
 			(symbol "INA240A3D_1_1"
 				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
 					(at -7.62 -2.54 0)
 					(length 2.54)
 					(name "-"
@@ -101,6 +119,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -127,26 +163,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 -7.62 90)
-					(length 5.08)
-					(name "REF2"
-						(effects
-							(font
-								(size 0.508 0.508)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at -2.54 -7.62 90)
-					(length 3.81) hide
+					(length 3.81)
+					(hide yes)
 					(name "GND"
 						(effects
 							(font
@@ -162,35 +181,17 @@
 						)
 					)
 				)
-				(pin output line
-					(at 7.62 0 180)
-					(length 2.54)
-					(name "~"
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "REF2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 0.508 0.508)
 							)
 						)
 					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -2.54 7.62 270)
-					(length 3.81)
-					(name "V+"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "6"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -216,17 +217,17 @@
 						)
 					)
 				)
-				(pin input line
-					(at -7.62 2.54 0)
+				(pin output line
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "8"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -235,11 +236,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:C_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -309,10 +315,10 @@
 			(symbol "C_Small_0_1"
 				(polyline
 					(pts
-						(xy -1.524 -0.508) (xy 1.524 -0.508)
+						(xy -1.524 0.508) (xy 1.524 0.508)
 					)
 					(stroke
-						(width 0.3302)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -321,10 +327,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.524 0.508) (xy 1.524 0.508)
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
 					)
 					(stroke
-						(width 0.3048)
+						(width 0.3302)
 						(type default)
 					)
 					(fill
@@ -370,11 +376,16 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Device:R_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.254) hide)
+				(offset 0.254)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -492,7 +503,19 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "VoutMax = 3.3V\nVdiff=3.3/2/50=33mV\nRsense = Vdiff / IMax = 33mV/2.5A =13.2mΩ\nPrsense = 13.2e-3 * (2.5)^2 = 82.5mw"
+		(exclude_from_sim no)
+		(at 75.946 60.452 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "035bf012-d5e8-4879-8238-1162b9cd6d23")
 	)
 	(junction
 		(at 138.43 140.97)
@@ -786,21 +809,9 @@
 		)
 		(uuid "fe122f93-8289-4e36-b4ab-b835695d496a")
 	)
-	(text "VoutMax = 3.3V\nVdiff=3.3/2/50=33mV\nRsense = Vdiff / IMax = 33mV/2.5A =13.2mΩ\nPrsense = 13.2e-3 * (2.5)^2 = 82.5mw"
-		(exclude_from_sim no)
-		(at 75.946 60.452 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "035bf012-d5e8-4879-8238-1162b9cd6d23")
-	)
 	(hierarchical_label "ISENSE"
 		(shape output)
 		(at 201.93 106.045 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -812,7 +823,6 @@
 	(hierarchical_label "VSUPPLY"
 		(shape input)
 		(at 85.725 78.74 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -824,7 +834,6 @@
 	(hierarchical_label "GND"
 		(shape passive)
 		(at 85.725 140.97 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -836,7 +845,6 @@
 	(hierarchical_label "SENSE+"
 		(shape input)
 		(at 85.725 89.535 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -848,7 +856,6 @@
 	(hierarchical_label "VREF"
 		(shape input)
 		(at 85.725 71.12 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -860,7 +867,6 @@
 	(hierarchical_label "SENSE-"
 		(shape input)
 		(at 85.725 119.38 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -948,12 +954,12 @@
 		)
 		(instances
 			(project "foc8313"
-				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/4c6c6d09-876f-4eba-b2a4-6d544596feb9"
-					(reference "C26")
-					(unit 1)
-				)
 				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/1cc54603-d82e-415c-bbf9-5b5f12638dae"
 					(reference "C28")
+					(unit 1)
+				)
+				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/4c6c6d09-876f-4eba-b2a4-6d544596feb9"
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -1038,12 +1044,12 @@
 		)
 		(instances
 			(project "foc8313"
-				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/4c6c6d09-876f-4eba-b2a4-6d544596feb9"
-					(reference "C27")
-					(unit 1)
-				)
 				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/1cc54603-d82e-415c-bbf9-5b5f12638dae"
 					(reference "C29")
+					(unit 1)
+				)
+				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/4c6c6d09-876f-4eba-b2a4-6d544596feb9"
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -1058,7 +1064,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a4e3f164-66cb-4256-af44-2157c79dda47")
-		(property "Reference" "U3"
+		(property "Reference" "U7"
 			(at 142.24 103.505 0)
 			(effects
 				(font
@@ -1144,12 +1150,12 @@
 				)
 			)
 			(project "foc8313"
-				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/4c6c6d09-876f-4eba-b2a4-6d544596feb9"
-					(reference "U7")
-					(unit 1)
-				)
 				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/1cc54603-d82e-415c-bbf9-5b5f12638dae"
 					(reference "U8")
+					(unit 1)
+				)
+				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/4c6c6d09-876f-4eba-b2a4-6d544596feb9"
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -1164,7 +1170,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0f9a0d4-316a-40f3-9815-34c056c34000")
-		(property "Reference" "R10"
+		(property "Reference" "R12"
 			(at 92.075 103.505 0)
 			(effects
 				(font
@@ -1230,12 +1236,12 @@
 				)
 			)
 			(project "foc8313"
-				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/4c6c6d09-876f-4eba-b2a4-6d544596feb9"
-					(reference "R12")
-					(unit 1)
-				)
 				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/1cc54603-d82e-415c-bbf9-5b5f12638dae"
 					(reference "R13")
+					(unit 1)
+				)
+				(path "/6a0f293a-1ae1-497a-a3c1-0d8f9e6f81b9/4c6c6d09-876f-4eba-b2a4-6d544596feb9"
+					(reference "R12")
 					(unit 1)
 				)
 			)
