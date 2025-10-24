@@ -227,7 +227,7 @@
 		(uuid "3856dd40-2aaf-4918-802c-d478b38435b2")
 	)
 	(embedded_fonts no)
-	(model "/home/will/elws/foc8313/hw/libs/easyeda/easyeda.3dshapes/CONN-TH_XT30PB-M.wrl"
+	(model "${KIPRJMOD}/../hw/libs/easyeda/easyeda.3dshapes/CONN-TH_XT30PB-M.wrl"
 		(offset
 			(xyz -0.2 -0 0)
 		)
