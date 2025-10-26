@@ -194,7 +194,7 @@
 		(uuid "024874c1-092e-46a1-9030-b491e1b02249")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../hw/libs/easyeda/easyeda.3dshapes/CONN-SMD_GH1.25-LS-8P.wrl"
+	(model "${KIPRJMOD}/../hw/libs/easyeda/easyeda.3dshapes/CONN-SMD_GH1.25-LS-8P.step"
 		(offset
 			(xyz -4.5 0.5 0)
 		)

@@ -216,7 +216,7 @@
 		(uuid "f2f79216-c37f-4fcc-850e-92cad1b6185f")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../hw/libs/easyeda/easyeda.3dshapes/CONN-SMD_BM05B-GHS-TBT.wrl"
+	(model "${KIPRJMOD}/../hw/libs/easyeda/easyeda.3dshapes/CONN-SMD_BM05B-GHS-TBT.step"
 		(offset
 			(xyz -0 -0.5 2)
 		)
