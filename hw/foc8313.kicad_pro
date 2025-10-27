@@ -58,7 +58,84 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "annular_width|142510000|87400000|c68ef35d-e76d-4f31-a5b5-49a96677fa20|00000000-0000-0000-0000-000000000000",
+          "LCSC component used before with no issues"
+        ],
+        [
+          "annular_width|148290000|87400000|22bb3bb1-f281-4867-b50a-ab030fbdece0|00000000-0000-0000-0000-000000000000",
+          "LCSC footprint - used before, no issues"
+        ],
+        [
+          "clearance|131950000|106225400|ee3262a3-273f-4d62-9aca-aa5c3a469068|11c4225b-67d6-40aa-bb27-a65901377b7c",
+          "This component is meant to jump these nets"
+        ],
+        [
+          "clearance|132450000|106225400|dd393a27-a27a-4d25-9170-9ba1636a5da7|11c4225b-67d6-40aa-bb27-a65901377b7c",
+          "This component is meant to jump these nets"
+        ],
+        [
+          "copper_edge_clearance|122750000|100400000|1e5755b2-6215-4952-94df-6522e22313b9|2406d7de-ae86-439b-9ad1-a1cfee86cbe9",
+          "This is how we get right up to the edge"
+        ],
+        [
+          "copper_edge_clearance|122750000|104610000|1e5755b2-6215-4952-94df-6522e22313b9|d932354a-fd03-4413-abe7-40df5bb3dcf4",
+          "This is how we get right up to the edge"
+        ],
+        [
+          "copper_edge_clearance|122900000|106300000|1e5755b2-6215-4952-94df-6522e22313b9|c48e57ee-84f6-47e8-be91-0ee1dd331a15",
+          "This is how we get connectors right up to the edge"
+        ],
+        [
+          "copper_edge_clearance|122900000|98300000|1e5755b2-6215-4952-94df-6522e22313b9|116a6d29-07e2-4feb-90e0-6b16fbb4f3c2",
+          "This is how we get connectors right up to the edge"
+        ],
+        [
+          "copper_edge_clearance|129000000|117450000|61cedd62-eca1-4a52-adef-5386c2edb322|54491f6d-a22c-456d-906b-e47db95fb1d2",
+          "This is how we get right up to the edge"
+        ],
+        [
+          "copper_edge_clearance|129300000|82550000|7dca7b87-c539-4246-bbe5-affd6c76e595|09a065bc-87f6-4c42-94d6-23f14ec21b28",
+          "This is how we get right up to the edge"
+        ],
+        [
+          "copper_edge_clearance|135200000|117450000|61cedd62-eca1-4a52-adef-5386c2edb322|7c4ea033-d569-4e07-8e16-9b4153249304",
+          "This is how we get right up to the edge"
+        ],
+        [
+          "copper_edge_clearance|138500000|82550000|7dca7b87-c539-4246-bbe5-affd6c76e595|79d812c8-e574-4314-b345-f616c73ffc4e",
+          "This is how we get right up to the edge"
+        ],
+        [
+          "copper_edge_clearance|157250000|100990000|917fcf15-9fcb-4ee5-8cd0-82bad189028b|f7bf1b4f-a647-40ed-9d3c-de810eb00cca",
+          "This is how we get right up to the edge"
+        ],
+        [
+          "copper_edge_clearance|157250000|105200000|917fcf15-9fcb-4ee5-8cd0-82bad189028b|430acec9-35bf-4cbf-84ea-8247f654dcef",
+          "This is how we get right up to the edge"
+        ],
+        [
+          "hole_clearance|142337500|88067500|c68ef35d-e76d-4f31-a5b5-49a96677fa20|ff891fcc-c64d-4457-86ec-ae5f5e1218ff",
+          ""
+        ],
+        [
+          "hole_clearance|148462500|88067500|22bb3bb1-f281-4867-b50a-ab030fbdece0|2d68b9c2-f14f-4677-80d9-c51ea90c5ad1",
+          ""
+        ],
+        [
+          "items_not_allowed|144900000|92900000|2751a290-47ab-4446-8349-53ddbdfd5caf|00000000-0000-0000-0000-000000000000",
+          "Not a real error - I've done this before without issue"
+        ],
+        [
+          "solder_mask_bridge|132100000|106225400|11c4225b-67d6-40aa-bb27-a65901377b7c|ee3262a3-273f-4d62-9aca-aa5c3a469068",
+          "This jumper is meant to bridge these nets"
+        ],
+        [
+          "solder_mask_bridge|132300000|106225400|11c4225b-67d6-40aa-bb27-a65901377b7c|dd393a27-a27a-4d25-9170-9ba1636a5da7",
+          "This jumper is meant to bridge these nets"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -142,7 +219,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
