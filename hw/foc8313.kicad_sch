@@ -7616,6 +7616,10 @@
 		(uuid "03eb2461-7c06-4a60-9561-ef675a729886")
 	)
 	(no_connect
+		(at 224.79 140.97)
+		(uuid "05c532c3-f09f-4d37-a9ba-ea6d23a23541")
+	)
+	(no_connect
 		(at 190.5 129.54)
 		(uuid "33392e7c-c369-413d-9f18-152a57ba412c")
 	)
@@ -7634,6 +7638,10 @@
 	(no_connect
 		(at 30.48 116.84)
 		(uuid "65eb825e-6f07-4831-9a51-59c5641f9514")
+	)
+	(no_connect
+		(at 224.79 138.43)
+		(uuid "6c4b059d-b60c-4a61-a61d-99c9741b2877")
 	)
 	(no_connect
 		(at 190.5 134.62)
@@ -10065,16 +10073,6 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 138.43) (xy 224.79 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b94b3d69-d802-40ca-83a5-ef3596fb7c25")
-	)
-	(wire
-		(pts
 			(xy 179.07 26.67) (xy 186.69 26.67)
 		)
 		(stroke
@@ -10152,16 +10150,6 @@
 			(type default)
 		)
 		(uuid "c0090bff-32a3-4425-8195-63629f2b0f05")
-	)
-	(wire
-		(pts
-			(xy 210.82 140.97) (xy 224.79 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c276230b-5506-4525-b6f1-f7b0823d906b")
 	)
 	(wire
 		(pts
@@ -11184,7 +11172,7 @@
 		(uuid "17d36a9b-5093-4f6a-8df9-aae449b23ad5")
 	)
 	(label "ENC1_A"
-		(at 270.51 102.87 180)
+		(at 270.51 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11292,16 +11280,6 @@
 			(justify right bottom)
 		)
 		(uuid "3e2c4e01-664a-4da4-ad90-e2c0c9a0ef69")
-	)
-	(label "I2C2.SCL"
-		(at 210.82 138.43 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3e77b930-630e-4f12-b462-20fe91b9bad3")
 	)
 	(label "~{NRST}"
 		(at 210.82 85.09 0)
@@ -11453,13 +11431,13 @@
 		)
 		(uuid "53d5febd-bdc5-43e2-ba3d-7543dde045e4")
 	)
-	(label "ENC1_Z"
-		(at 270.51 100.33 180)
+	(label "ENC1_I"
+		(at 210.82 113.03 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "56544781-1d3b-484c-8fad-12f81c24733d")
 	)
@@ -11523,7 +11501,7 @@
 		)
 		(uuid "62b27404-1d93-4fd1-bea1-6d26d5abde21")
 	)
-	(label "ENC2_Z"
+	(label "ENC2_I"
 		(at 270.51 90.17 180)
 		(effects
 			(font
@@ -11533,7 +11511,7 @@
 		)
 		(uuid "6c83d7be-c1cb-4db7-977c-52bbf087835b")
 	)
-	(label "ENC2_Z"
+	(label "ENC2_I"
 		(at 44.45 158.75 0)
 		(effects
 			(font
@@ -11623,7 +11601,7 @@
 		)
 		(uuid "7e6ce041-bcc4-4b36-9a7c-aca5e7c835f2")
 	)
-	(label "ENC1_Z"
+	(label "ENC1_I"
 		(at 198.12 124.46 180)
 		(effects
 			(font
@@ -11654,12 +11632,12 @@
 		(uuid "893f20ac-3e89-4c86-a889-32dfeba8a07d")
 	)
 	(label "ENC1_B"
-		(at 210.82 113.03 0)
+		(at 270.51 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8948467d-2294-4533-b8e4-f1bee824245a")
 	)
@@ -11753,7 +11731,7 @@
 		)
 		(uuid "9d560c87-60fd-47e2-914a-adc7777cc50f")
 	)
-	(label "ENC1_Z"
+	(label "ENC1_I"
 		(at 58.42 193.04 180)
 		(effects
 			(font
@@ -11762,16 +11740,6 @@
 			(justify right bottom)
 		)
 		(uuid "9e6673fd-25fa-4d88-a3e7-4a648f0585ad")
-	)
-	(label "I2C2.SDA"
-		(at 210.82 140.97 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a14288b9-e7d0-440d-b601-6c9df163b858")
 	)
 	(label "~{NRST}"
 		(at 251.46 29.21 0)
@@ -11983,7 +11951,7 @@
 		)
 		(uuid "dbf17d0d-b64f-4343-9e2c-35ad60da16f6")
 	)
-	(label "ENC2_Z"
+	(label "ENC2_I"
 		(at 17.78 193.04 0)
 		(effects
 			(font

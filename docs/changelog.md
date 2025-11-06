@@ -1,4 +1,15 @@
+v1.0
+
+- DRV8313 connected to TIM1 advanced timer not TIM3 general purpose timer
+- Onboard encoder A -> TIM3 ch1, B -> TIM3 ch2, I-> TIM3 ch3 (encoder mode +ch3)
+- Common and simple usbc connector with verified pinout
+- Removed eeprom ic since stm32f103 has internal 1Kb flash partitions
+- Cleaned up schematic
+- Green power led
+- Added adaptor boards CAN+Power and General purpose jst GH breakout
+
 v0.2.0
+
 - Removed compensation capacitor, not required
 - Removed power orring diode on buck converter side of cap
 - Fixed separate +3.3V and 3V3 nets
@@ -7,10 +18,12 @@ v0.2.0
 - Isolated power supply to generate 5V instead of 3.3V (VSEL floating)
 - Fixed USBC symbol pinout to be correct
 - 6m current shunt to 10m
-- NC pin 3 of buck controller connected to SW for better routing of bootstrap cap
+- NC pin 3 of buck controller connected to SW for better routing of bootstrap
+  cap
 - Vcc monitoring with resistor divider
 - Unpinching Vcc to 3.4mm
 - Unpinching GND for daisy chain
 - Increased most plane clearances
 - Tweaked plane geometry to better follow referenced tracks
 - Silk screen labels using bold larger font
+
