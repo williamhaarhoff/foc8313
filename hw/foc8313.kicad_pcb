@@ -9831,7 +9831,7 @@
 		(path "/67c38edc-7843-4b4c-b50a-94fd700c0fa2/05803232-f395-4664-9125-99b58e9a8479")
 		(sheetname "/isocan/")
 		(sheetfile "isocan.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_poly
 			(pts
 				(xy 1.8586 -1.25) (xy 1.65 -1.4586) (xy 1.65 -2.025) (xy 2.525 -2.025) (xy 2.525 -1.25)
@@ -19932,7 +19932,7 @@
 		(path "/67c38edc-7843-4b4c-b50a-94fd700c0fa2/ea3fa23f-2f74-48d1-a4fa-b485912e52de")
 		(sheetname "/isocan/")
 		(sheetfile "isocan.kicad_sch")
-		(attr smd exclude_from_bom)
+		(attr smd)
 		(fp_line
 			(start -1.5 1.11)
 			(end 1.5 1.11)
